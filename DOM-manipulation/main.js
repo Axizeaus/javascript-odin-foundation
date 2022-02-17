@@ -43,7 +43,15 @@ childContainer.appendChild(ch1);
 const btn = document.querySelector('#btn');
 btn.onclick = () => alert("Hello from the other fileeeeeeeee!");
 
-const btn2 = document.querySelector('#btn');
+const btn2 = document.querySelector('#btn2');
 btn2.addEventListener('click', () => {
   alert("I'm the real one calling from the other file!");
+});
+
+const btn3 = document.querySelector('#btn3');
+btn3.onclick = () => alert("this is the arrow one");
+
+const btn4 = document.querySelector('#btn4');
+btn4.addEventListener('click', () => {
+  alert('this is btn4 speaking');
 });
